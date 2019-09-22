@@ -1,0 +1,29 @@
+*제네릭 - 클래스 내부에서 쓸 데이터 타입을 나중에 확정하여 사용하겠다.
+->ex) class Person<T>{ public T info; } Person<String> p1 = new Person<String>();
+->인스턴스화 할 때,넣겠다. 앞부분과 뒷부분이 같아야 함.
+
+*제너릭 사용이유?
+1)타입이 다른데, 내부적 구조가 비슷할 경우 중복 제거!
+2)타입의 안전성이 높아짐(이 타입에는 허용되는 애들만 와야하는데..Object로 해놓으면 다 들어옴..)
+-> Person<EmployeeInfo> p1 = new Person<EmployeeInfo>(new EmployeeInfo(1));
+
+*제네릭의 특징(안정성과 편의성 둘다 보장)
+1)기본 데이타 타입은 제네릭 쓰지못하지만 wrapper클래스라고함
+->기본데이타타입을 마치 객체 데이터처럼 취급(우회해서 사용)
+->double(Double), int(Integer)
+ex) Person<EmployeeInfo, Integer> p1 = new Person<EmployeeInfo, Integer>(new EmployeeInfo(1), new Integer(1) ); > 마치 객체처럼
+System.out.println(p1.id.intValue()); > 원시 데이타 타입으로 반환
+
+2)제네릭의 생략
+(?) - e와 i의 데이터 타입을 알고 있기 때문.
+Person<EmployeeInfo, Integer> p1 = new Person<EmployeeInfo, Integer>(e, i);
+->
+Person p2 = new Person(e, i);
+
+메소드에도 적용
+p1.<EmployeeInfo>printInfo(e);
+->p1.printInfo(e);
+
+*제네릭의 제한 - 제네릭으로 올 수있는 데이터 타입을 특정 클래스의 자식으로 제한 가능.
+->ex)abstract class Info{},  class Person<T extends Info>{}
+->Info클래스나 Info의 자식만 올수있음.

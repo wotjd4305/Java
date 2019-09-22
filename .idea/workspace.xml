@@ -1,19 +1,67 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/src/main/java/org/opentutorials/javatutorials/io/Scanner3Demo.java" line="15" mnemonic="9" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="da481988-8045-4e4d-a056-99445b91fa42" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/opentutorials/javatutorials/TypeConversion/ImplicatedTypeConversionDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/opentutorials/javatutorials/TypeConversion/explicateTypeConversionDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/opentutorials/javatutorials/compare/EqualDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/opentutorials/javatutorials/condition/LoginDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/opentutorials/javatutorials/condition/SwitchDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/opentutorials/javatutorials/datatype/IntDatatypeDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/opentutorials/javatutorials/loop/whileDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/opentutorials/javatutorials/number/Number.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/opentutorials/javatutorials/operator/PrePostDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/opentutorials/javatutorials/variables/IntergerDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/opentutorials/javatutorials/variables/StringDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/opentutorials/javatutorials/Inheritance/example1/CalculatorDemo1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/opentutorials/javatutorials/Inheritance/example1/CalculatorDemo2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/opentutorials/javatutorials/Inheritance/example1/CalculatorDemo3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/opentutorials/javatutorials/Inheritance/example2/CalculatorConstructorDemo5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/opentutorials/javatutorials/Object/CaculatorDemo2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/opentutorials/javatutorials/Object/CaculatorDemo3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/opentutorials/javatutorials/Object/CaculatorDemo4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/opentutorials/javatutorials/abstractclass/example3/CalculatorDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/opentutorials/javatutorials/accessmodifier/AccessDemo1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/opentutorials/javatutorials/array/ArrayLoopDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/opentutorials/javatutorials/array/DefineDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/opentutorials/javatutorials/array/ForeachDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/opentutorials/javatutorials/array/LengthDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/opentutorials/javatutorials/classinstance/CalculatorDemo2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/opentutorials/javatutorials/classinstance/CalculatorDemo3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/opentutorials/javatutorials/constant2/ConstantDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/opentutorials/javatutorials/constructor/CalculatorDemo1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/opentutorials/javatutorials/exception/CalculatorDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/opentutorials/javatutorials/exception/CheckedExceptionDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/opentutorials/javatutorials/exception/ExceptionDemo1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/opentutorials/javatutorials/exception/ThrowExceptionDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/opentutorials/javatutorials/finals/CalculatorDemo1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/opentutorials/javatutorials/generic/GenericDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/opentutorials/javatutorials/interfaces/example2/Calculatable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/opentutorials/javatutorials/interfaces/example2/Calculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/opentutorials/javatutorials/interfaces/example2/CalculatorConsumer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/opentutorials/javatutorials/io/InputDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/opentutorials/javatutorials/io/InputForeachDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/opentutorials/javatutorials/io/Scanner2Demo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/opentutorials/javatutorials/io/Scanner3Demo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/opentutorials/javatutorials/io/ScannerDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/opentutorials/javatutorials/method/MethodDemo1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/opentutorials/javatutorials/method/MethodDemo4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/opentutorials/javatutorials/method/MethodDemo6.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/opentutorials/javatutorials/method/MethodDemo7.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/opentutorials/javatutorials/method/ReturnDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/opentutorials/javatutorials/method/ReturnDemo4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/opentutorials/javatutorials/overloading/CalculatorDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/opentutorials/javatutorials/overloading/example1/OverloadingDemo2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/opentutorials/javatutorials/overriding/CalculatorDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/opentutorials/javatutorials/packages/example1/A.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/opentutorials/javatutorials/packages/example1/B.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/opentutorials/javatutorials/packages/example2/B.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/opentutorials/javatutorials/packages/example2/C.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/opentutorials/javatutorials/polymorphism/CalculatorDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/opentutorials/javatutorials/polymorphism/PolymorphismDemo1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/opentutorials/javatutorials/polymorphism/PolymorphismDemo2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/opentutorials/javatutorials/polymorphism/PolymorphismDemo3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/opentutorials/javatutorials/polymorphism/PolymorphismOverloadingDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/opentutorials/javatutorials/progenitor/CalculatorDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/opentutorials/javatutorials/progenitor/ObjectDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/opentutorials/javatutorials/reference/ReferenceDemo1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/opentutorials/javatutorials/reference/ReferenceParameterDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/opentutorials/javatutorials/scope/ScopeDemo2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/opentutorials/javatutorials/scope/ScopeDemo6.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/opentutorials/javatutorials/scope/ScopeDemo9.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -49,91 +97,138 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/org/opentutorials/javatutorials/TypeConversion/ImplicatedTypeConversionDemo.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/org/opentutorials/javatutorials/exception/ThrowExceptionDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="76">
-              <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+            <state relative-caret-position="38">
+              <caret line="2" column="39" selection-start-line="2" selection-start-column="39" selection-end-line="2" selection-end-column="39" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/org/opentutorials/javatutorials/TypeConversion/explicateTypeConversionDemo.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/org/opentutorials/javatutorials/progenitor/CalculatorDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="304">
-              <caret line="16" column="33" selection-start-line="16" selection-start-column="33" selection-end-line="16" selection-end-column="33" />
+            <state relative-caret-position="358">
+              <caret line="29" column="37" selection-start-line="29" selection-start-column="37" selection-end-line="29" selection-end-column="37" />
+              <folding>
+                <element signature="e#223#224#0" expanded="true" />
+                <element signature="e#279#280#0" expanded="true" />
+                <element signature="e#303#304#0" expanded="true" />
+                <element signature="e#363#364#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/org/opentutorials/javatutorials/operator/DivisionDemo.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/org/opentutorials/javatutorials/progenitor/ObjectDemo.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="266">
-              <caret line="14" column="24" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
+              <caret line="14" column="9" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="9" />
+              <folding>
+                <element signature="e#109#110#0" expanded="true" />
+                <element signature="e#141#142#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/org/opentutorials/javatutorials/operator/PrePostDemo.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/org/opentutorials/javatutorials/constant2/ConstantDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="95">
-              <caret line="5" column="48" selection-start-line="5" selection-start-column="48" selection-end-line="5" selection-end-column="48" />
+            <state relative-caret-position="430">
+              <caret line="42" column="27" selection-start-line="42" selection-start-column="27" selection-end-line="42" selection-end-column="27" />
+              <folding>
+                <element signature="e#169#170#0" expanded="true" />
+                <element signature="e#209#210#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/org/opentutorials/javatutorials/compare/EqualDemo.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/org/opentutorials/javatutorials/reference/ReferenceDemo1.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="152">
-              <caret line="8" column="37" selection-start-line="8" selection-start-column="37" selection-end-line="8" selection-end-column="37" />
+            <state relative-caret-position="297">
+              <caret line="19" selection-start-line="19" selection-end-line="19" />
+              <folding>
+                <element signature="e#92#93#0" expanded="true" />
+                <element signature="e#120#121#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/org/opentutorials/javatutorials/compare/EqualStringDemo.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/org/opentutorials/javatutorials/reference/ReferenceParameterDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="152">
-              <caret line="8" column="2" selection-start-line="8" selection-start-column="2" selection-end-line="8" selection-end-column="2" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/org/opentutorials/javatutorials/condition/LoginDemo.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="17" selection-start-line="17" selection-end-line="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/org/opentutorials/javatutorials/condition/SwitchDemo.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="778">
-              <caret line="70" selection-start-line="70" selection-end-line="70" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/org/opentutorials/javatutorials/loop/whileDemo.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="266">
-              <caret line="14" column="1" lean-forward="true" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
+            <state relative-caret-position="228">
+              <caret line="25" column="5" lean-forward="true" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
+              <folding>
+                <element signature="e#120#121#0" expanded="true" />
+                <element signature="e#141#142#0" expanded="true" />
+                <element signature="e#300#301#0" expanded="true" />
+                <element signature="e#328#329#0" expanded="true" />
+                <element signature="e#534#535#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/org/opentutorials/javatutorials/loop/ForDemo.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/org/opentutorials/javatutorials/generic/GenericDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="9" column="34" selection-start-line="9" selection-start-column="34" selection-end-line="9" selection-end-column="34" />
+            <state relative-caret-position="323">
+              <caret line="21" column="25" selection-start-line="21" selection-start-column="11" selection-end-line="21" selection-end-column="25" />
+              <folding>
+                <element signature="e#313#314#0" expanded="true" />
+                <element signature="e#353#354#0" expanded="true" />
+                <element signature="e#565#588#0" expanded="true" />
+                <element signature="e#607#621#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/org/opentutorials/javatutorials/polymorphism/CalculatorDemo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="570">
+              <caret line="40" column="4" selection-start-line="40" selection-start-column="4" selection-end-line="40" selection-end-column="4" />
+              <folding>
+                <element signature="e#226#227#0" expanded="true" />
+                <element signature="e#271#272#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/org/opentutorials/javatutorials/interfaces/example2/CalculatorConsumer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="133">
+              <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+              <folding>
+                <element signature="e#196#197#0" expanded="true" />
+                <element signature="e#221#222#0" expanded="true" />
+                <element signature="e#243#244#0" expanded="true" />
+                <element signature="e#268#269#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/org/opentutorials/javatutorials/interfaces/example2/Calculator.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="38">
+              <caret line="2" column="24" selection-start-line="2" selection-start-column="24" selection-end-line="2" selection-end-column="24" />
+              <folding>
+                <element signature="e#311#312#0" expanded="true" />
+                <element signature="e#371#372#0" expanded="true" />
+                <element signature="e#394#395#0" expanded="true" />
+                <element signature="e#460#461#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -143,6 +238,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -153,37 +249,65 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/org/opentutorials/javatutorials/number/numberstring.java" />
-        <option value="$PROJECT_DIR$/build.gradle" />
-        <option value="$PROJECT_DIR$/src/main/java/org/opentutorials/javatutorials/number/Number.java" />
-        <option value="$PROJECT_DIR$/src/main/java/org/opentutorials/javatutorials/number/variable.java" />
-        <option value="$PROJECT_DIR$/src/main/java/org/opentutorials/javatutorials/variables/IntergetDemo.java" />
-        <option value="$PROJECT_DIR$/src/main/java/org/opentutorials/javatutorials/variables/DoubleDemo.java" />
-        <option value="$PROJECT_DIR$/src/main/java/org/opentutorials/javatutorials/variables/StringDemo.java" />
-        <option value="$PROJECT_DIR$/src/main/java/org/opentutorials/javatutorials/datatype/ConstantDemo.java" />
-        <option value="$PROJECT_DIR$/src/main/java/org/opentutorials/javatutorials/constant/ConstantDemo.java" />
-        <option value="$PROJECT_DIR$/src/main/java/org/opentutorials/javatutorials/variables/Practice.java" />
-        <option value="$PROJECT_DIR$/src/main/java/org/opentutorials/javatutorials/TypeConversion/TypeConversionDemo.java" />
-        <option value="$PROJECT_DIR$/src/main/java/org/opentutorials/javatutorials/datatype/IntDatatypeDemo.java" />
-        <option value="$PROJECT_DIR$/src/main/java/org/opentutorials/javatutorials/TypeConversion/ImplicatedTypeConversionDemo.java" />
-        <option value="$PROJECT_DIR$/src/main/java/org/opentutorials/javatutorials/TypeConversion/explicateTypeConversionDemo.java" />
-        <option value="$PROJECT_DIR$/src/main/java/org/opentutorials/javatutorials/operator/DivisionDemo.java" />
-        <option value="$PROJECT_DIR$/src/main/java/org/opentutorials/javatutorials/operator/PrePostDemo.java" />
-        <option value="$PROJECT_DIR$/src/main/java/org/opentutorials/javatutorials/compare/EqualDemo.java" />
-        <option value="$PROJECT_DIR$/src/main/java/org/opentutorials/javatutorials/compare/EqualStringDemo.java" />
-        <option value="$PROJECT_DIR$/src/main/java/org/opentutorials/javatutorials/condition/Condition2Demo.java" />
-        <option value="$PROJECT_DIR$/src/main/java/org/opentutorials/javatutorials/condition/LoginDemo.java" />
-        <option value="$PROJECT_DIR$/src/main/java/org/opentutorials/javatutorials/condition/SwitchDemo.java" />
-        <option value="$PROJECT_DIR$/src/main/java/org/opentutorials/javatutorials/loop/whileDemo.java" />
-        <option value="$PROJECT_DIR$/src/main/java/org/opentutorials/javatutorials/loop/ForDemo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/opentutorials/javatutorials/constructor/CalculatorDemo1.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/opentutorials/javatutorials/Inheritance/CalculatorDemo3.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/opentutorials/javatutorials/Inheritance/CalculatorDemo1.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/opentutorials/javatutorials/Inheritance/CalculatorDemo2.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/opentutorials/javatutorials/Inheritance/example1/CalculatorDemo1.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/opentutorials/javatutorials/Inheritance/example1/CalculatorDemo3.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/opentutorials/javatutorials/Inheritance/example1/CalculatorDemo2.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/opentutorials/javatutorials/Inheritance/example2/CalculatorDemo5.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/opentutorials/javatutorials/Inheritance/example2/CalculatorConstructorDemo5.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/opentutorials/javatutorials/overriding/CalculatorDemo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/opentutorials/javatutorials/overloading/CalculatorDemo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/opentutorials/javatutorials/overloading/OverloadingDemo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/opentutorials/javatutorials/overloading/example1/OverloadingDemo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/opentutorials/javatutorials/overloading/example1/OverloadingDemo2.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/opentutorials/javatutorials/packages/B.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/opentutorials/javatutorials/packages/A.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/opentutorials/javatutorials/packages/example2/B.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/opentutorials/javatutorials/packages/example1/B.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/opentutorials/javatutorials/packages/example2/C.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/opentutorials/javatutorials/packages/example3/example2/B.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/opentutorials/javatutorials/packages/example3/example2/D.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/opentutorials/javatutorials/accessmodifier/AccessDemo1.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/opentutorials/javatutorials/accessmodifier/CalculatorDemo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/opentutorials/javatutorials/abstractclass/AbstractDemo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/opentutorials/javatutorials/abstractclass/example1/example1/AbstractDemo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/opentutorials/javatutorials/abstractclass/example1/AbstractDemo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/opentutorials/javatutorials/abstractclass/example3/CalculatorDemo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/opentutorials/javatutorials/finals/CalculatorDemo1.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/opentutorials/javatutorials/interfaces/A.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/opentutorials/javatutorials/interfaces/example1/example1/A.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/opentutorials/javatutorials/interfaces/example1/A.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/opentutorials/javatutorials/interfaces/example2/Calculatable.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/opentutorials/javatutorials/interfaces/example2/Calculator.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/opentutorials/javatutorials/interfaces/example2/CalculatorConsumer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/opentutorials/javatutorials/polymorphism/PolymorphismOverloadingDemo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/opentutorials/javatutorials/polymorphism/PolymorphismDemo1.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/opentutorials/javatutorials/polymorphism/olymorphismDemo2.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/opentutorials/javatutorials/polymorphism/PolymorphismDemo2.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/opentutorials/javatutorials/polymorphism/CalculatorDemo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/opentutorials/javatutorials/polymorphism/PolymorphismDemo3.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/opentutorials/javatutorials/exception/CalculatorDemo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/opentutorials/javatutorials/exception/ExceptionDemo2.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/opentutorials/javatutorials/exception/ExceptionDemo1.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/opentutorials/javatutorials/exception/CheckedExceptionDemo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/opentutorials/javatutorials/exception/ThrowExceptionDemo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/opentutorials/javatutorials/progenitor/CalculatorDemo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/opentutorials/javatutorials/progenitor/ObjectDemo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/opentutorials/javatutorials/constant2/ConstantDemo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/opentutorials/javatutorials/reference/ReferenceDemo1.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/opentutorials/javatutorials/reference/ReferenceParameterDemo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/opentutorials/javatutorials/generic/GenericDemo.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1015" />
-    <option name="y" value="16" />
+    <option name="x" value="1042" />
+    <option name="y" value="50" />
     <option name="width" value="878" />
-    <option name="height" value="1000" />
+    <option name="height" value="994" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -191,6 +315,7 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -231,7 +356,7 @@
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="javatutorials" type="462c0819:PsiDirectoryNode" />
-              <item name="condition" type="462c0819:PsiDirectoryNode" />
+              <item name="constant2" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="java" type="b2602c69:ProjectViewProjectNode" />
@@ -240,7 +365,7 @@
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="javatutorials" type="462c0819:PsiDirectoryNode" />
-              <item name="constant" type="462c0819:PsiDirectoryNode" />
+              <item name="exception" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="java" type="b2602c69:ProjectViewProjectNode" />
@@ -249,55 +374,18 @@
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="javatutorials" type="462c0819:PsiDirectoryNode" />
-              <item name="datatype" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="java" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Java" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="javatutorials" type="462c0819:PsiDirectoryNode" />
-              <item name="loop" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="java" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Java" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="javatutorials" type="462c0819:PsiDirectoryNode" />
-              <item name="operator" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="java" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Java" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="javatutorials" type="462c0819:PsiDirectoryNode" />
-              <item name="TypeConversion" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="java" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Java" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="javatutorials" type="462c0819:PsiDirectoryNode" />
-              <item name="variables" type="462c0819:PsiDirectoryNode" />
+              <item name="reference" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1569111475379" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1569177755387" />
     <property name="last_opened_file_path" value="C:/Program Files (x86)/Java/jdk1.8.0_161" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -308,11 +396,18 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="org.opentutorials.javatutorials.loop" />
-      <recent name="org.opentutorials.javatutorials.condition" />
-      <recent name="org.opentutorials.javatutorials.compare" />
-      <recent name="org.opentutorials.javatutorials.operator" />
-      <recent name="org.opentutorials.javatutorials.TypeConversion" />
+      <recent name="org.opentutorials.javatutorials.interfaces" />
+      <recent name="org.opentutorials.javatutorials.finals" />
+      <recent name="org.opentutorials.javatutorials.abstractclass" />
+      <recent name="org.opentutorials.javatutorials.accessmodifier" />
+      <recent name="org.opentutorials.javatutorials.packages.example2" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Smith\Documents\GitHub\Java\src\main\java\org\opentutorials\javatutorials\abstractclass\example3" />
+      <recent name="C:\Users\Smith\Documents\GitHub\Java\src\main\java\org\opentutorials\javatutorials\abstractclass\example1" />
+      <recent name="C:\Users\Smith\Documents\GitHub\Java\src\main\java\org\opentutorials\javatutorials\accessmodifier" />
+      <recent name="C:\Users\Smith\Documents\GitHub\Java\src\main\java\org\opentutorials\javatutorials\packages\example3" />
+      <recent name="C:\Users\Smith\Documents\GitHub\Java\src\main\java\org\opentutorials\javatutorials\packages" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -327,13 +422,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.continueDemo">
-    <configuration name="BreakDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.opentutorials.javatutorials.loop.BreakDemo" />
+  <component name="RunManager" selected="Application.GenericDemo">
+    <configuration name="ConstantDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.opentutorials.javatutorials.constant2.ConstantDemo" />
       <module name="java.java.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.opentutorials.javatutorials.loop.*" />
+          <option name="PATTERN" value="org.opentutorials.javatutorials.constant2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -341,12 +436,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ForDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.opentutorials.javatutorials.loop.ForDemo" />
+    <configuration name="GenericDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.opentutorials.javatutorials.generic.GenericDemo" />
       <module name="java.java.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.opentutorials.javatutorials.loop.*" />
+          <option name="PATTERN" value="org.opentutorials.javatutorials.generic.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -354,12 +449,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SwitchDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.opentutorials.javatutorials.condition.SwitchDemo" />
+    <configuration name="ObjectDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.opentutorials.javatutorials.progenitor.ObjectDemo" />
       <module name="java.java.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.opentutorials.javatutorials.condition.*" />
+          <option name="PATTERN" value="org.opentutorials.javatutorials.progenitor.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -367,12 +462,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="continueDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.opentutorials.javatutorials.loop.continueDemo" />
+    <configuration name="ReferenceDemo1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.opentutorials.javatutorials.reference.ReferenceDemo1" />
       <module name="java.java.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.opentutorials.javatutorials.loop.*" />
+          <option name="PATTERN" value="org.opentutorials.javatutorials.reference.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -380,12 +475,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="whileDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.opentutorials.javatutorials.loop.whileDemo" />
+    <configuration name="ReferenceParameterDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.opentutorials.javatutorials.reference.ReferenceParameterDemo" />
       <module name="java.java.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.opentutorials.javatutorials.loop.*" />
+          <option name="PATTERN" value="org.opentutorials.javatutorials.reference.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -395,11 +490,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.continueDemo" />
-        <item itemvalue="Application.BreakDemo" />
-        <item itemvalue="Application.ForDemo" />
-        <item itemvalue="Application.whileDemo" />
-        <item itemvalue="Application.SwitchDemo" />
+        <item itemvalue="Application.GenericDemo" />
+        <item itemvalue="Application.ReferenceParameterDemo" />
+        <item itemvalue="Application.ReferenceDemo1" />
+        <item itemvalue="Application.ConstantDemo" />
+        <item itemvalue="Application.ObjectDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -416,12 +511,14 @@
       <workItem from="1569085128494" duration="1202000" />
       <workItem from="1569086415656" duration="4543000" />
       <workItem from="1569091381977" duration="126000" />
-      <workItem from="1569109631238" duration="1666000" />
+      <workItem from="1569109631238" duration="24084000" />
+      <workItem from="1569162575128" duration="1123000" />
+      <workItem from="1569172466090" duration="5663000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7537000" />
+    <option name="totallyTimeSpent" value="36741000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -433,10 +530,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1015" y="16" width="878" height="1000" extended-state="0" />
+    <frame x="1042" y="50" width="878" height="994" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27506113" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2775061" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -445,7 +542,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.35103926" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3534884" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -463,7 +560,7 @@
       <window_info anchor="right" id="Maven" order="3" />
       <window_info anchor="right" id="Palette" order="4" />
       <window_info anchor="right" id="Capture Analysis" order="5" />
-      <window_info anchor="right" id="Gradle" order="6" visible="true" weight="0.036674816" />
+      <window_info anchor="right" id="Gradle" order="6" visible="true" weight="0.039119806" />
       <window_info anchor="right" id="Database" order="7" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
       <window_info anchor="right" id="Theme Preview" order="9" />
@@ -481,136 +578,503 @@
           <properties />
           <option name="timeStamp" value="1" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/opentutorials/javatutorials/Object/CaculatorDemo4</url>
+          <line>19</line>
+          <properties />
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/opentutorials/javatutorials/number/numberstring.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/opentutorials/javatutorials/number/variable.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/opentutorials/javatutorials/number/Number.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/opentutorials/javatutorials/classinstance/CalculatorDemo2.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="17" column="19" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="19" />
+        <state relative-caret-position="142">
+          <caret line="35" column="17" selection-start-line="35" selection-start-column="17" selection-end-line="35" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/build.gradle">
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/opentutorials/javatutorials/classinstance/CalculatorDemo3.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+          <folding>
+            <element signature="e#124#125#0" expanded="true" />
+            <element signature="e#170#171#0" expanded="true" />
+            <element signature="e#220#221#0" expanded="true" />
+            <element signature="e#270#271#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/opentutorials/javatutorials/classinstance/ClassMemberDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="665">
+          <caret line="35" column="23" selection-start-line="35" selection-start-column="23" selection-end-line="35" selection-end-column="23" />
+          <folding>
+            <element signature="e#165#166#0" expanded="true" />
+            <element signature="e#216#217#0" expanded="true" />
+            <element signature="e#500#501#0" expanded="true" />
+            <element signature="e#553#554#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/opentutorials/javatutorials/scope/ScopeDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="22" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
+          <folding>
+            <element signature="e#94#95#0" expanded="true" />
+            <element signature="e#119#120#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/opentutorials/javatutorials/scope/ScopeDemo2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="16" column="41" selection-start-line="16" selection-start-column="41" selection-end-line="16" selection-end-column="41" />
+          <folding>
+            <element signature="e#118#119#0" expanded="true" />
+            <element signature="e#143#144#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/opentutorials/javatutorials/scope/ScopeDemo6.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+          <folding>
+            <element signature="e#262#263#0" expanded="true" />
+            <element signature="e#281#282#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/opentutorials/javatutorials/scope/ScopeDemo9.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="42" selection-start-line="7" selection-start-column="42" selection-end-line="7" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/opentutorials/javatutorials/constructor/CalculatorDemo1.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="114">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
+          <caret line="6" column="44" selection-start-line="6" selection-start-column="44" selection-end-line="6" selection-end-column="44" />
+          <folding>
+            <element signature="e#223#224#0" expanded="true" />
+            <element signature="e#281#282#0" expanded="true" />
+            <element signature="e#306#307#0" expanded="true" />
+            <element signature="e#370#371#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/opentutorials/javatutorials/variables/IntergerDemo.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/opentutorials/javatutorials/Inheritance/example2/SubstractionableCalculator.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/opentutorials/javatutorials/Inheritance/CalculatorDemo1.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/opentutorials/javatutorials/Inheritance/CalculatorDemo2.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/opentutorials/javatutorials/Inheritance/CalculatorDemo3.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/opentutorials/javatutorials/Inheritance/example1/CalculatorDemo1.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        <state relative-caret-position="38">
+          <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/opentutorials/javatutorials/variables/DoubleDemo.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/opentutorials/javatutorials/Inheritance/example1/CalculatorDemo2.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="94">
-          <caret line="6" column="32" selection-start-line="6" selection-start-column="32" selection-end-line="6" selection-end-column="32" />
+        <state relative-caret-position="228">
+          <caret line="12" column="30" selection-start-line="12" selection-start-column="30" selection-end-line="12" selection-end-column="30" />
+          <folding>
+            <element signature="e#273#274#0" expanded="true" />
+            <element signature="e#331#332#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/opentutorials/javatutorials/variables/StringDemo.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/opentutorials/javatutorials/Inheritance/example1/CalculatorDemo3.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="190">
-          <caret line="10" column="1" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+          <folding>
+            <element signature="e#160#161#0" expanded="true" />
+            <element signature="e#218#219#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/opentutorials/javatutorials/condition/Condition2Demo.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/opentutorials/javatutorials/variables/Practice.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/opentutorials/javatutorials/Inheritance/example2/CalculatorConstructorDemo5.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="15" column="26" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="34" />
+        <state relative-caret-position="23">
+          <caret line="13" column="5" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
+          <folding>
+            <element signature="e#342#343#0" expanded="true" />
+            <element signature="e#400#401#0" expanded="true" />
+            <element signature="e#425#426#0" expanded="true" />
+            <element signature="e#489#490#0" expanded="true" />
+            <element signature="e#784#785#0" expanded="true" />
+            <element signature="e#842#843#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/opentutorials/javatutorials/datatype/IntDatatypeDemo.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/opentutorials/javatutorials/overriding/CalculatorDemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+        <state relative-caret-position="208">
+          <caret line="23" column="24" selection-start-line="23" selection-start-column="24" selection-end-line="23" selection-end-column="24" />
+          <folding>
+            <element signature="e#227#228#0" expanded="true" />
+            <element signature="e#285#286#0" expanded="true" />
+            <element signature="e#310#311#0" expanded="true" />
+            <element signature="e#374#375#0" expanded="true" />
+            <element signature="e#565#566#0" expanded="true" />
+            <element signature="e#623#624#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/opentutorials/javatutorials/constant/ConstantDemo.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/opentutorials/javatutorials/overloading/CalculatorDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="298">
+          <caret line="18" column="36" selection-start-line="18" selection-start-column="36" selection-end-line="18" selection-end-column="36" />
+          <folding>
+            <element signature="e#569#570#0" expanded="true" />
+            <element signature="e#636#637#0" expanded="true" />
+            <element signature="e#660#661#0" expanded="true" />
+            <element signature="e#731#732#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/opentutorials/javatutorials/overloading/example1/OverloadingDemo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="38">
           <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/opentutorials/javatutorials/TypeConversion/ImplicatedTypeConversionDemo.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/opentutorials/javatutorials/overloading/example1/OverloadingDemo2.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+        <state relative-caret-position="133">
+          <caret line="7" column="8" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
+          <folding>
+            <element signature="e#156#157#0" expanded="true" />
+            <element signature="e#239#240#0" expanded="true" />
+            <element signature="e#254#255#0" expanded="true" />
+            <element signature="e#313#314#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/opentutorials/javatutorials/TypeConversion/explicateTypeConversionDemo.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/opentutorials/javatutorials/packages/example1/A.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="16" column="33" selection-start-line="16" selection-start-column="33" selection-end-line="16" selection-end-column="33" />
+        <state relative-caret-position="38">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/opentutorials/javatutorials/operator/DivisionDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="14" column="24" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/opentutorials/javatutorials/operator/PrePostDemo.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/opentutorials/javatutorials/packages/example1/B.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="95">
-          <caret line="5" column="48" selection-start-line="5" selection-start-column="48" selection-end-line="5" selection-end-column="48" />
+          <caret line="5" column="8" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="8" />
+          <folding>
+            <element signature="e#124#125#0" expanded="true" />
+            <element signature="e#153#154#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/opentutorials/javatutorials/compare/EqualDemo.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/opentutorials/javatutorials/packages/example2/B.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" column="37" selection-start-line="8" selection-start-column="37" selection-end-line="8" selection-end-column="37" />
+        <state relative-caret-position="114">
+          <caret line="6" column="8" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="24" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/opentutorials/javatutorials/compare/EqualStringDemo.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/opentutorials/javatutorials/packages/example2/C.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" column="2" selection-start-line="8" selection-start-column="2" selection-end-line="8" selection-end-column="2" />
+        <state relative-caret-position="114">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <folding>
+            <element signature="e#184#185#0" expanded="true" />
+            <element signature="e#212#213#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/opentutorials/javatutorials/condition/LoginDemo.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/opentutorials/javatutorials/packages/example3/example2/B.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/opentutorials/javatutorials/packages/example3/example2/D.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        <state relative-caret-position="38">
+          <caret line="2" column="10" selection-end-line="18" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/opentutorials/javatutorials/condition/SwitchDemo.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/opentutorials/javatutorials/accessmodifier/CalculatorDemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="778">
-          <caret line="70" selection-start-line="70" selection-end-line="70" />
+        <state relative-caret-position="513">
+          <caret line="27" column="1" selection-start-line="27" selection-start-column="1" selection-end-line="27" selection-end-column="1" />
+          <folding>
+            <element signature="e#236#237#0" expanded="true" />
+            <element signature="e#279#280#0" expanded="true" />
+            <element signature="e#310#311#0" expanded="true" />
+            <element signature="e#366#367#0" expanded="true" />
+            <element signature="e#398#399#0" expanded="true" />
+            <element signature="e#454#455#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/opentutorials/javatutorials/loop/whileDemo.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/opentutorials/javatutorials/accessmodifier/AccessDemo1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="246">
+          <caret line="15" column="22" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
+          <folding>
+            <element signature="e#88#89#0" expanded="true" />
+            <element signature="e#128#129#0" expanded="true" />
+            <element signature="e#152#153#0" expanded="true" />
+            <element signature="e#192#193#0" expanded="true" />
+            <element signature="e#215#216#0" expanded="true" />
+            <element signature="e#241#242#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/opentutorials/javatutorials/abstractclass/example3/CalculatorDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="379">
+          <caret line="36" column="32" selection-start-line="36" selection-start-column="32" selection-end-line="36" selection-end-column="32" />
+          <folding>
+            <element signature="e#413#414#0" expanded="true" />
+            <element signature="e#481#482#0" expanded="true" />
+            <element signature="e#504#505#0" expanded="true" />
+            <element signature="e#574#575#0" expanded="true" />
+            <element signature="e#646#647#0" expanded="true" />
+            <element signature="e#714#715#0" expanded="true" />
+            <element signature="e#737#738#0" expanded="true" />
+            <element signature="e#807#808#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/opentutorials/javatutorials/finals/CalculatorDemo1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="1" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
+          <folding>
+            <element signature="e#283#284#0" expanded="true" />
+            <element signature="e#345#346#0" expanded="true" />
+            <element signature="e#366#367#0" expanded="true" />
+            <element signature="e#434#435#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/opentutorials/javatutorials/abstractclass/example1/AbstractDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="21" column="1" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
+          <folding>
+            <element signature="e#413#414#0" expanded="true" />
+            <element signature="e#481#482#0" expanded="true" />
+            <element signature="e#504#505#0" expanded="true" />
+            <element signature="e#574#575#0" expanded="true" />
+            <element signature="e#646#647#0" expanded="true" />
+            <element signature="e#714#715#0" expanded="true" />
+            <element signature="e#737#738#0" expanded="true" />
+            <element signature="e#807#808#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/opentutorials/javatutorials/interfaces/example1/A.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="10" selection-start-line="2" selection-start-column="10" selection-end-line="2" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/opentutorials/javatutorials/interfaces/example2/Calculatable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="1" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/opentutorials/javatutorials/polymorphism/PolymorphismOverloadingDemo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="266">
-          <caret line="14" column="1" lean-forward="true" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
+          <caret line="14" column="15" selection-start-line="14" selection-start-column="15" selection-end-line="14" selection-end-column="15" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/opentutorials/javatutorials/loop/ForDemo.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/opentutorials/javatutorials/exception/ExceptionDemo2.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/opentutorials/javatutorials/polymorphism/PolymorphismDemo1.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="171">
-          <caret line="9" column="34" selection-start-line="9" selection-start-column="34" selection-end-line="9" selection-end-column="34" />
+          <caret line="9" column="30" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/opentutorials/javatutorials/polymorphism/PolymorphismDemo3.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="494">
+          <caret line="30" column="1" selection-start-line="30" selection-start-column="1" selection-end-line="30" selection-end-column="1" />
+          <folding>
+            <element signature="e#180#181#0" expanded="true" />
+            <element signature="e#206#207#0" expanded="true" />
+            <element signature="e#229#230#0" expanded="true" />
+            <element signature="e#255#256#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/opentutorials/javatutorials/exception/CalculatorDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="31" selection-start-line="11" selection-start-column="31" selection-end-line="11" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/opentutorials/javatutorials/exception/ExceptionDemo1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="22" column="1" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/opentutorials/javatutorials/exception/CheckedExceptionDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="17" column="34" selection-start-line="17" selection-start-column="34" selection-end-line="17" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/opentutorials/javatutorials/polymorphism/PolymorphismDemo2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="1" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/opentutorials/javatutorials/polymorphism/CalculatorDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="570">
+          <caret line="40" column="4" selection-start-line="40" selection-start-column="4" selection-end-line="40" selection-end-column="4" />
+          <folding>
+            <element signature="e#226#227#0" expanded="true" />
+            <element signature="e#271#272#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/opentutorials/javatutorials/interfaces/example2/CalculatorConsumer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+          <folding>
+            <element signature="e#196#197#0" expanded="true" />
+            <element signature="e#221#222#0" expanded="true" />
+            <element signature="e#243#244#0" expanded="true" />
+            <element signature="e#268#269#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/opentutorials/javatutorials/interfaces/example2/Calculator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="24" selection-start-line="2" selection-start-column="24" selection-end-line="2" selection-end-column="24" />
+          <folding>
+            <element signature="e#311#312#0" expanded="true" />
+            <element signature="e#371#372#0" expanded="true" />
+            <element signature="e#394#395#0" expanded="true" />
+            <element signature="e#460#461#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/opentutorials/javatutorials/exception/ThrowExceptionDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="39" selection-start-line="2" selection-start-column="39" selection-end-line="2" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/opentutorials/javatutorials/progenitor/CalculatorDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="358">
+          <caret line="29" column="37" selection-start-line="29" selection-start-column="37" selection-end-line="29" selection-end-column="37" />
+          <folding>
+            <element signature="e#223#224#0" expanded="true" />
+            <element signature="e#279#280#0" expanded="true" />
+            <element signature="e#303#304#0" expanded="true" />
+            <element signature="e#363#364#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/opentutorials/javatutorials/progenitor/ObjectDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="14" column="9" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="9" />
+          <folding>
+            <element signature="e#109#110#0" expanded="true" />
+            <element signature="e#141#142#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/opentutorials/javatutorials/constant2/ConstantDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="430">
+          <caret line="42" column="27" selection-start-line="42" selection-start-column="27" selection-end-line="42" selection-end-column="27" />
+          <folding>
+            <element signature="e#169#170#0" expanded="true" />
+            <element signature="e#209#210#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/opentutorials/javatutorials/reference/ReferenceDemo1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
+          <folding>
+            <element signature="e#92#93#0" expanded="true" />
+            <element signature="e#120#121#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/opentutorials/javatutorials/reference/ReferenceParameterDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="25" column="5" lean-forward="true" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
+          <folding>
+            <element signature="e#120#121#0" expanded="true" />
+            <element signature="e#141#142#0" expanded="true" />
+            <element signature="e#300#301#0" expanded="true" />
+            <element signature="e#328#329#0" expanded="true" />
+            <element signature="e#534#535#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/opentutorials/javatutorials/generic/GenericDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="21" column="25" selection-start-line="21" selection-start-column="11" selection-end-line="21" selection-end-column="25" />
+          <folding>
+            <element signature="e#313#314#0" expanded="true" />
+            <element signature="e#353#354#0" expanded="true" />
+            <element signature="e#565#588#0" expanded="true" />
+            <element signature="e#607#621#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

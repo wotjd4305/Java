@@ -1,0 +1,14 @@
+*예외의 강제
+1)파일을 읽을 때, 빨간 줄이 뜨게됨 
+-> try/catch문을 자동으로 만들자.
+-> BufferedReader bReader = new BufferedReader(new FileReader("out.txt"));
+->out.txt라는 파일이 없다면 예외가 발생하기에 반드시 던져줘야함!
+->즉, 강제하고 있기 때문에 빨간줄 뜨는것임.
+2)bReader.readLine(); 
+-> 이것도 초기화가 제대로 안되면 예외처리 해줘야함
+
+*throws - 예외처리를 다음 사용자에게 넘기는 것, 이곳에서 책임 안지겠다.
+->위의 예외 강제는 시스템이 우리에게 throw한것.
+->상속으로 인해 C가 B를 호출하고 B의 메소드의 run()이 오류시 > B -> C -> Throw -> 사용자 에게 던짐.
+-> class B throws "에러"는 오류를 암시하기 때문에 다른 쪽에서도 try/catch를 해야함.
+->계속 다음 사용자에게 전가가능.(언젠간 처리해야한다..)

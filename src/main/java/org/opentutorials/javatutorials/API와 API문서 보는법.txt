@@ -1,0 +1,10 @@
+*API(Application Programming Interface) - 프로그래밍 설명서
+
+*System.out.println(1) - out이라는 변수에 담겨져있는 객체가 println()이라는 메소드 인것.
+->System은 클래스, out은 그클래스의 변수, println()는 메소드
+
+*import java.lang.*; - java.lang 소속의 모든 클래스 임폴트
+->이거 명시 안해도 자동적으로 임폴트 > 필수적이고 필요하기 때문.
+
+*http://docs.oracle.com/javase/ > API Documents 탭 클릭
+->자바 API문서가 있는 장소

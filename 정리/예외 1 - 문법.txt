@@ -1,0 +1,27 @@
+*예외란?
+->정상적인 처리를 벗어나기 위한 처리 방법.
+->ex)10을 0으로 나누는 행위.
+->try/cahtch(Exception e)로 처리
+
+*뒷수습의 방법
+1)System....(e.getMessage()) // 간단한 오류 정보
+2)System....(e.toString()) // 자세한 오류 정보
+3)e.printStackTrace(); // 더 자세한 오류 정보
++)try/catch밖의 코드는 실행됨.
+
+*다양한 예외들
+-> 다중 캐치를 사용하여 어떤 예외인지 파악 가능
+-> 스위치 문의 디폴트처럼 Exception e를 사용가능.
+ex) try{}
+catch(ArrayIndexOutOfBoundsException e){}
+catch(ArithmeticException e){}
+catch(Exception e){} 이런식
+
+*finally - 예외여부와 관계없이 실행되는 로직
+->ex)try{예외 발생이 예상되는 로직}
+catch(){예외가 발생했을때 실행되는 로직}
+finally{예외여부와 관게없이 실행되는 로직, 무조건 실행}
+
+*finally를 왜 쓰는가?
+->만약 DB에서 접속해서 가져오는 과정에서 에러 시, 마지막에 끊어줘야함
+->(?)DB서버에서 수용할수있는 연결은 정해져 있기 때문에.
