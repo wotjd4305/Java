@@ -1,0 +1,56 @@
+*배열과 컬렉션즈 프레임웍크
+->배열은 정해진 배열의 크기를 변경할 수 없음 > 컬렉션즈 프레임워크를 사용하면 불편이 줄어듬.
+
+*ArrayList - 컬렉션즈 프레임워크 중 하나
+1)ArrayList(); 
+->import java.util.ArrayList;필요
+->a1.add("one"); > "one"에 들어가는 타입은 Object타입임. > 사용시 형변환이 필요. > String value = (String)a1.get(i); > 이 과정을 생략하고 싶다? > 생성시 제네릭을 사용하여 생성 > ArrayList<String> a1 = new ArrayList<String>();
+->a1.size(); > 사이즈
+->a1.get(i) > 해당 인덱스 번째 가져오기.
+
+*컬렉션즈 프래임워크란(컨테이너)?
+->각각의 카테고리에 따라서 쓰는 방식 다르게 하자.
+1)컬렉션
+	Set(중복방지) - HashSet, LinkedHashSet, Tree Set(
+	List(중복가능) - ArrayList, Vector, LinkedList
+	Queue - PriorityQueue
+2)Map
+	SortedMap - TreeMAp
+	Hashtable(key-value)
+	LinkedHashMap
+	HashMap
+3)iterator
+
+*List와 Set의 차이점
+1)List -  중복허용. 순서 유지
+2)HashSet - 고유한 값들만 저장, 중복없앰. 순서가 없음. 집합느낌.
+
+*iterator 메소드 - 컬렉션즈 프레임웤크 인터페이스
+정의)Iterator hi = hs.iterator();
+사용)while(hi.hasNext()) - 반복할 데이터 있으면 true, 아니면 false
+     System.out.println(hi.next()); - hi안에 값이 사라지면서 뽑음. 
+
+*Set의 사용
+1)부분집합인가? - A.containsAll(B)
+2)합집합 - A.addAll(B)
+3)교집합 - A.retainAll(B)
+4)차집합 - A.removeAll(B)
+
+*Map
+->key-value방식, 두개의 제너릭
+정의)HashMap<String, Integer> a = new HashMap(String, Integer>();
+사용)[값넣기] a.put("one",1);
+     [값뽑기] a.get("one");
+
+정의)Set<Map.Entry<String, Integer>> entries = map.entrySet();
+사용2)[entrySet()을 이요하여 값뽑기] for(Map.Entry<String, Integer> entry : entries) { S~(entry.getKey(), entry.getValue());
+
+*map 특징
+1)key가 두개이상의 값을 가지면안됨(집합)
+2)value는 같은것 가져도됨.
+
+*Collections
+Comparble이라는 클래스는 List타입만을 정렬함
+->compareTo라는 메소드를 재정의하면 key값으로 정렬가능
+->return 값에 따라 정렬되는데, this - other면 오름차순, other - this면 내림차순
+사용)Collections.sort(a);로 key값으로 정렬됨.
