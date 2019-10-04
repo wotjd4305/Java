@@ -1,0 +1,34 @@
+*동기화?
+1)heap에 동시접근을 막는
+2)접근순서의 컨트롤(순서가 중요할수도)
+
+*동시접근이란?
+연산이란 CPU가 일단 가져와서 증가시킴 > 다시 메모리 공간에 저장
+ex)하나의 변수에 둘이 동시에 접근 시, 값이 제대로 안됨.
+->데이터베이스의 문제와 비슷
+
+*쓰레드의 동기화 기법1
+문제가 될부분만 동기화 처리하면 됨.
+public synchronized void increment(){ } > 이처럼 선언하면 동시에 호출및 실행이 되지 않음.
+->엄청난 성능 감소가 일어나긴함..
+
+*쓰레드의 동기화 기법2 : 동기화 블록
+동시 실행 안되는 부분만 블록처리
+public int add(int a, int b)
+{
+synchronized(this){ opCnt++; } //이부분에 엄청난 성능차이
+return a+b
+}
+->여기서 this란 열쇠정보, 즉 클래스의 인스턴스의 열쇠
+ex) Object key1 = new Object(); sychronized(key1); 처럼 쓸수도 있음.
+
+*동기화 메소드의 정확한 이해
+Lock걸 수 있음. > sychronized 선언 > Lock이 걸린 것. > 열쇠는 그 클래스의 인스턴스가 가짐. 
+
+*동기화 필요성
+먼저 호출했다고 해서 그 순서대로 될것이라 예측하는것은 안좋음.
+
+*wait(), notify(), notifyAll()
+wait - notify나 notifyall이 올때까지 블로킹상태 //동기화블록처리
+notify - 블로킹 깨움.
+notify - 블로킹 다 깨움.

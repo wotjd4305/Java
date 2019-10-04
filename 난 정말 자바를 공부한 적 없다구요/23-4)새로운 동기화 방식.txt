@@ -1,0 +1,14 @@
+*synchronized키워드의 대체
+private final ReentrantLock obj = new ReentrantLock();//락을 쓰겠다.
+void myMethod(int arg)
+{
+	obj.lock() ........ obj.unlock();
+}
+-> 위험한 형태니 try finally로 구현
+obj.lock();
+try{ }finally{obj.unlock()};
+
+*await(), signal()
+저번에 배웠던 notify()는 누굴기다리는지 알수 없음.
+따라서 명시를해줌 ex) if(isNewString==true) writeCond.await();//새로운 기사가 나올떄까지 writeCond가 작성까지 잘거임.
+readCond.signal();// 읽는애를 깨움.
