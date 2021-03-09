@@ -3,7 +3,8 @@ package daou.test;
 import java.util.HashMap;
 
 //HI
-
+//hi5
+//hi2
 public class ClassMapping {
 
     public static void main(String[] args) {
