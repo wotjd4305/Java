@@ -1,8 +1,6 @@
 package modernjavainaction.chap02;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
+import java.util.*;
 
 public class FilteringApples {
 
@@ -40,6 +38,13 @@ public class FilteringApples {
       }
     });
     System.out.println(redApples2);
+
+    //[Apple{color=RED, weight=120}]
+    List<Apple> test = filter(inventory, (Apple apple) -> Color.RED.equals(apple.getColor()));
+    System.out.println(test);
+
+
+
   }
 
   public static List<Apple> filterGreenApples(List<Apple> inventory) {
