@@ -1,0 +1,21 @@
+server:
+  port: 8666
+
+
+spring:
+  # thymeleaf 설정
+  thymeleaf:
+    enabled: true
+    suffix: .html
+    encoding: UTF-8
+    servlet:
+      content-type: text/html
+    cache: false
+
+
+# log설정
+log:
+  path: D:/log/service/deliagent/web
+  appender: console
+  name: gateway.log
+  pattern: "%d{yyyy-MM-dd HH:mm:ss.SSS} [%-5level] [%thread] [%X{identity}] %msg %n"

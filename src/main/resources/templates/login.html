@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>Please sign in</title>
+    <script src="/js/jQuery-3.4.1.js"></script>
+    <script src="/js/bootstrap.js"></script>
+    <link rel="stylesheet" type="text/css" href="/css/bootstrap.css"/>
+    <link rel="stylesheet" type="text/css" href="/css/signin.css"/>
+    <script th:src="@{/js/login.js}"></script>
+    <script>
+    $(document).ready(function() {
+            // 20/11/12 박재성
+            // common/SvcConstant~
+            let smsAuthMsg = "SMS 인증 X";
+            let smsAuthNotMatch = "인증번호가 일치하지 않습니다.";
+
+            let tel = '[[${tel}]]';
+            // 괄호제거, 공백제거
+            //let tels = tel.replaceAll("\[",'').replaceAll("\]",'').replaceAll(" ", '').split(',');
+            let tels = tel.replace(/\[/g, '').replace(/\]/g, '').replace(/\ /g, '').split(',');
+            //
+
+
+
+            /*<![CDATA[*/
+            let msg = '[[${msg}]]';
+
+
+            if(msg!=null && msg != ''){
+                if(msg == smsAuthMsg){
+                    $('#sms-auth-view').attr('class', 'form-signin sms-auth-view');
+                    $('#user-auth-view').attr('class', 'display-none');
+                }
+                else if( msg == smsAuthNotMatch){
+                    $('#sms-auth-view').attr('class', 'form-signin sms-auth-view');
+                    $('#user-auth-view').attr('class', 'display-none');
+                    $('#alertModal').modal('show');
+                    $('#msgField').html(msg);
+                }
+                else{
+                    $('#alertModal').modal('show');
+                    $('#msgField').html(msg);
+                }
+            }
+            /*]]>*/
+
+            // 전화번호
+            $("#autNumBtn").on("click", function () {
+                let data = $("#telnum").val();
+                let msg;
+
+                //입력값과 유저
+                //가져온 번호 중 하나라도 입력한것과 일치한다면
+                for( let index in tels) {
+                    if (data == tels[index]) {
+                        $.ajax({
+                            url: "/auth/authMsg",
+                            type: "POST",
+                            //dataType: 'text json', //이 부분 오류 반환
+                            contentType: 'application/json',
+                            data: JSON.stringify({
+                                "tel": data,
+                            }),
+                            // beforeSend: function(xhr) {
+                            //     xhr.setRequestHeader(header, token);
+                            // },
+                            success: function (res) {
+                                console.log(res);
+                                console.log('인증번호 요청 API 성공');
+                                msg = "인증번호가 발송되었습니다."
+                                $('#alertModal').modal('show');
+                                $('#msgField').html(msg);
+                                $('#sms-auth-btn').attr('disabled', false);
+                                $('#authnum').attr('disabled', false);
+
+                                //
+                                time = 180;
+                                clearInterval(intervalX);
+                                intervalX = setInterval(authTimer, 1000);
+
+                            },
+                            error: function (error) {
+                                console.log(error);
+                                console.log('인증번호 요청 API 에러');
+                                msg = "문자 발송 실패, 관리자에게 문의하세요."
+                                $('#alertModal').modal('show');
+                                $('#msgField').html(msg);
+
+                            },
+                        })
+                    } else {
+                        msg = "입력하신 휴대폰 번호와 유저가 등록한 휴대폰 번호가 다릅니다."
+                        $('#alertModal').modal('show');
+                        $('#msgField').html(msg);
+                    }
+                }
+            })
+
+
+        });
+
+    </script>
+
+</head>
+<body>
+<div class="container custom-radius container-shadow col-6" style="max-width: 660px">
+    <form class="form-signin text-center" method="post" th:action="@{/login}" autocomplete="off">
+        <!--<input name="${_csrf.parameterName}" type="hidden" value="${_csrf.token}"/>-->
+        <!--<h2 class="form-signin-heading pb-5">영업대행 웹 로그인</h2>-->
+        <div class="text-center row mb-4">
+            <img class="img-fluid" style="max-width:80%; margin:0px auto;" th:src="@{/img/center/group_2577_2xre2(w100).png}">
+        </div>
+
+        <!-- 1차 로그인 -->
+        <div id="user-auth-view">
+            <p>
+                <label for="loginid" class="sr-only">Username</label>
+                <input type="text" id="loginid" name="loginid" class="form-control" placeholder="아이디를 입력하세요" th:value="${#request.getAttribute('loginid')}!=null?${#request.getAttribute('loginid')}:''" autofocus>
+            </p>
+            <p>
+                <label for="loginpasswd" class="sr-only">Password</label>
+                <input type="password" id="loginpasswd" name="loginpasswd" class="form-control" autocomplete="off" placeholder="비밀번호를 입력하세요" th:value="${#request.getAttribute('loginpasswd')}!=null?${#request.getAttribute('loginpasswd')}:''" autofocus>
+            </p>
+            <!--<p th:text="${#request.getAttribute('msg')}"></p>-->
+            <!--<p>
+                &lt;!&ndash;/* spring security에서 제공하는 자동 로그인 기능을 위한 remember-me
+                                201026 - 자동 로그인 제거 요청 */&ndash;&gt;
+                <input type="checkbox" id="remember-me" th:name="remember-me" name="remember-me" checked>
+                <label for="remember-me">자동 로그인</label>
+            </p>-->
+            <button class="btn btn-lg btn-primary btn-block" type="submit">Sign in</button>
+        </div>
+    </form>
+        <!--/ 1차로그인 -->
+
+    <!-- 2차 로그인 -->
+      <div id="sms-auth-view" class="display-none" style="margin: auto; max-width: 100%;"   >
+          <form id="sms-auth-form" method="post" th:action="@{/login}"  autocomplete="off">
+              <div>
+                <!--hidden -->
+                <div style="display: none">
+                    <p>
+                        <input type="text" id="loginid" name="loginid"  th:value="${#request.getAttribute('loginid')}!=null?${#request.getAttribute('loginid')}:''" >
+                    </p>
+                    <p>
+                        <input type="password" id="loginpasswd" name="loginpasswd"  autocomplete="off"  th:value="${#request.getAttribute('loginpasswd')}!=null?${#request.getAttribute('loginpasswd')}:''" >
+                    </p>
+                </div>
+                <!-- hidden -->
+
+                    <div class="row">
+                        <p class="font-weight-bold">휴대폰 인증이 필요합니다</p>
+                    </div>
+                    <div class ="row">
+                        <label for="telnum" class="sr-only">telnum</label>
+                        <input type="number" id="telnum" name="telnum" class="form-control col-8" placeholder="사전 등록된 휴대폰번호 입력" th:value="${#request.getAttribute('loginpasswd')}!=null?${#request.getAttribute('loginpasswd')}:''" autofocus>
+                        <button id="autNumBtn" type="button" class="col-3 ml-3 btn-primary font-weight-bold" style="border-radius: 0.5rem;">인증번호 발송</button>
+                    </div>
+                    <div class ="row">
+                        <label for="authnum" class="sr-only">authnum</label>
+                        <input type="number"  id="authnum" name="authnum" class="form-control col-8" autocomplete="off" placeholder="인증번호" disabled>
+                        <div class="col-4 m-auto"><p class="m-auto text-center font-weight-bold" id="time"></p> </div>
+                    </div>
+                </div>
+            </form>
+            <div class="row mt-3">
+                <div class="col-5 text-center">
+                    <button id="sms-auth-btn" form="sms-auth-form" class="btn btn-width btn-padding btn-lg btn-primary" onclick="clickSubmitChk()" type="button" disabled="true">확인</button>
+                </div>
+                <div class="col-5 text-center" style="margin: auto">
+                    <form th:action="@{/logout}" method="post">
+                        <button class="btn btn-width btn-padding  btn-lg btn-secondary" type="submit">취소</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <!--/ 2차 로그인 -->
+
+</div>
+<!--/* bootstrap modal message */-->
+<div class="modal fade bd-example-modal-md" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true" id="alertModal" name="alertModal">
+    <div class="modal-dialog modal-dialog-centered modal-md" role="document">
+        <div class="modal-content">
+            <div class="modal-body text-center">
+                <span id="msgField" name="msgField"></span>
+            </div>
+            <div class="p-0 pb-md-1 text-center">
+                <button class="btn btn-info" id="confirmBtn" name="confirmBtn" data-dismiss="modal" th:text="확인"></button>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
+
