@@ -24,10 +24,10 @@ import java.time.format.DateTimeFormatter;
 public class RestClient {
 
     // 데이터
-    static String bizId = "daourecycle"; // 고객사 아이디로 변경
-    static String monthDay = LocalDate.now().format(DateTimeFormatter.ofPattern("MMdd"));
-    static String url = "https://bizapi.callmix.co.kr/biz050/BZV100"; // 연동요청할 url로 변경하여 사용. (ex. BZV100, BZC100...)
-    static String encipherCode = "eb49b67112818a1322b57ca2151f54fff16debc1e8486f2933cf264ef4510f41"; // 고객사 암호화 코드로 변경
+    private static final String bizId = "daourecycle"; // 고객사 아이디로 변경
+    private static final String monthDay = LocalDate.now().format(DateTimeFormatter.ofPattern("MMdd"));
+    private static final String url = "https://bizapi.callmix.co.kr/biz050/BZV100"; // 연동요청할 url로 변경하여 사용. (ex. BZV100, BZC100...)
+    private static final String encipherCode = "eb49b67112818a1322b57ca2151f54fff16debc1e8486f2933cf264ef4510f41"; // 고객사 암호화 코드로 변경
 
 
     public static void main(String args[]) throws Exception {
