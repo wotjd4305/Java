@@ -1,7 +1,6 @@
 server:
   port: 8666
 
-
 spring:
   # thymeleaf 설정
   thymeleaf:
@@ -11,6 +10,10 @@ spring:
     servlet:
       content-type: text/html
     cache: false
+    prefix: classpath:/templates/
+  freemarker:
+    cache: false
+
 
 
 # log설정

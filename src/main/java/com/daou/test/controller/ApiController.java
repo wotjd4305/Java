@@ -3,7 +3,6 @@ package com.daou.test.controller;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
-import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 
@@ -19,8 +18,9 @@ import org.springframework.web.bind.annotation.RequestMethod;
 @Slf4j
 public class ApiController {
 
-  @RequestMapping(value = "/login1", method = {RequestMethod.GET}, produces = "text/html; charset=utf-8")
+  @RequestMapping(value = "/login", method = {RequestMethod.GET}, produces = "text/html; charset=utf-8")
   public String login(Model model){
-    return "login";
+    return "login.html";
   }
+
 }
