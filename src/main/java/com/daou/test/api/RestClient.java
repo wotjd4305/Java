@@ -21,6 +21,12 @@ import java.time.format.DateTimeFormatter;
  * @Author daou
  * @Version 1.0
  */
+
+/**
+ Java 8 버전 이상에서 사용할 수 있습니다.
+ Java 8에서 추가된 클래스 LocalDate와 DateTimeFormatter를 사용합니다.
+ */
+
 public class RestClient {
 
     // 데이터

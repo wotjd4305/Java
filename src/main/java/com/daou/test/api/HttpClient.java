@@ -26,6 +26,13 @@ import java.util.Random;
  * @Author daou
  * @Version 1.0
  */
+
+/**
+ * Java의 HttpClient는 Java 11부터 사용 가능합니다.
+ * Java 11부터는 HttpClient가 java.net.HttpURLConnection과 java.net.HttpClient를 대체하고 있습니다.
+ * 이전 버전에서는 Apache HttpComponents, OkHttp, Retrofit 등과 같은 다른 HTTP 클라이언트 라이브러리를 사용해야합니다.
+ */
+
 public class HttpClient {
 
     private static final String LINEFEED = "\r\n";
