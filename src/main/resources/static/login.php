@@ -13,14 +13,15 @@ $month = $today->format('m');
 $day = $today->format('d');
 
 // 데이터
-$bizId = 'daourecycle'; // 고객사 아이디로 변경.
+$bizId = 'daourecycle'; // TODO : 고객사 아이디로 변경.
 $monthDay = $month.$day;
-$url = 'https://bizapi.callmix.co.kr/biz050/BZV100'; // 연동요청할 url로 변경하여 사용. (ex. BZV100, BZC100...)
+$url = 'https://bizapi.callmix.co.kr/biz050/BZV100'; // TODO : 연동요청할 url로 변경하여 사용. (ex. BZV100, BZC100...)
 
 /*
 * sha256 암호화 방식, 암호화 코드, 연동 세부사항은 사업팀 별도로 전달
+* TODO : 사업팀에서 전달 받은 secureCode 생성방식 확인
 */
-$encipherCode = 'eb49b67112818a1322b57ca2151f54fff16debc1e8486f2933cf264ef4510f41'; // 고객사 암호화 코드로 변경
+$encipherCode = 'eb49b67112818a1322b57ca2151f54fff16debc1e8486f2933cf264ef4510f41'; // TODO : 고객사 암호화 코드로 변경
 $secureCode = hash('sha256', makeSecureCode()); // [비즈콜믹스]_연동규격서_세부사항 참고
 
 
