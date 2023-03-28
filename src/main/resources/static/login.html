@@ -186,12 +186,15 @@
             const formattedDay = day < 10 ? `0${day}` : day;
 
             // 데이터
-            let bizId = "daourecycle"; // 고객사 아이디로 변경.
+            let bizId = "daourecycle"; //TODO : 고객사 아이디로 변경.
             let monthDay = formattedMonth + formattedDay;
-            let url = 'https://bizapi.callmix.co.kr/biz050/BZV100'; // 연동요청할 url로 변경하여 사용. (ex. BZV100, BZC100...)
-            let encipherCode = "eb49b67112818a1322b57ca2151f54fff16debc1e8486f2933cf264ef4510f41"; // 고객사 암호화 코드로 변경
+            let url = 'https://bizapi.callmix.co.kr/biz050/BZV100'; //TODO : 연동요청할 url로 변경하여 사용. (ex. BZV100, BZC100...)
+            let encipherCode = "eb49b67112818a1322b57ca2151f54fff16debc1e8486f2933cf264ef4510f41"; //TODO : 고객사 암호화 코드로 변경
 
-            // sha256 암호화, 암호화 코드 및 방식은 별도로 전달
+            /*
+             * sha256 암호화, 암호화 코드 및 방식은 별도로 전달
+             * TODO : 사업팀에서 전달 받은 secureCode 생성방식 확인
+             */
             let secureCode = SHA256(makeSecureCode());
 
             // 업로드 폼 전송 (ajax로 파일 업로드)
@@ -212,6 +215,11 @@
                 data: formData,
                 success: function (data) {
                     console.log(data)
+                    $('#resCd').text(data.resCd);
+                    $('#resMsg').text(data.resMsg);
+                    $('#totCnt').text(data.totCnt);
+                    $('#selCnt').text(data.selCnt);
+                    $('#vnList').text(data.vnList);
                 },
                 err: function (err) {
                     console.log(err)
@@ -221,8 +229,15 @@
     </script>
 
 </head>
-<body>
 
+<body>
+    <div>
+        <div id="resCd"></div>
+        <div id="resMsg"></div>
+        <div id="totCnt"></div>
+        <div id="selCnt"></div>
+        <div id="vnList"></div>
+    </div>
 </body>
 </html>
 

@@ -18,9 +18,5 @@ import org.springframework.web.bind.annotation.RequestMethod;
 @Slf4j
 public class ApiController {
 
-  @RequestMapping(value = "/login", method = {RequestMethod.GET}, produces = "text/html; charset=utf-8")
-  public String login(Model model){
-    return "login.html";
-  }
 
 }
