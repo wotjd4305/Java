@@ -33,7 +33,7 @@ import java.time.format.DateTimeFormatter;
  * httpclient - https://mvnrepository.com/artifact/org.apache.httpcomponents/httpclient
  */
 
-public class HttpClientV8 {
+public class ApiTestHttpClientV8 {
 
     // 데이터
     private static final String bizId = "daourecycle"; //TODO : 고객사 아이디로 변경

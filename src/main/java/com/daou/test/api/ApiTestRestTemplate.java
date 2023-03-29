@@ -27,7 +27,7 @@ import java.time.format.DateTimeFormatter;
  Java 8에서 추가된 클래스 LocalDate와 DateTimeFormatter를 사용합니다.
  */
 
-public class RestTemplateTest {
+public class ApiTestRestTemplate {
 
     // 데이터
     private static final String bizId = "daourecycle"; //TODO : 고객사 아이디로 변경

@@ -33,7 +33,7 @@ import java.util.Random;
  * 이전 버전에서는 Apache HttpComponents, OkHttp, Retrofit 등과 같은 다른 HTTP 클라이언트 라이브러리를 사용해야합니다.
  */
 
-public class HttpClientV11 {
+public class ApiTestHttpClientV11 {
 
     private static final String LINEFEED = "\r\n";
     private static final String DOUBLE_HYPHEN = "--";
