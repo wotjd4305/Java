@@ -7,6 +7,10 @@
 <body>
 
 <?php
+/*
+ * PHP 7.4버전이상에서 사용하실 수 있습니다.
+*/
+
 // 날짜 계산
 $today = new DateTime();
 $month = $today->format('m');
@@ -14,7 +18,7 @@ $day = $today->format('d');
 
 // 데이터
 $bizId = 'daourecycle'; // TODO : 고객사 아이디로 변경.
-$monthDay = $month.$day;
+$monthDay = $month . $day;
 $url = 'https://bizapi.callmix.co.kr/biz050/BZV100'; // TODO : 연동요청할 url로 변경하여 사용. (ex. BZV100, BZC100...)
 
 /*
@@ -29,12 +33,12 @@ $secureCode = hash('sha256', makeSecureCode()); // [비즈콜믹스]_연동규�
 $ch = curl_init();
 
 $data = array(
-'bizId' => $bizId,
-'monthDay' => $monthDay,
-'secureCode' => $secureCode,
-'selGbn' => '1',
-'reqCnt' => '10',
-'seqNo' => '0',
+    'bizId' => $bizId,
+    'monthDay' => $monthDay,
+    'secureCode' => $secureCode,
+    'selGbn' => '1',
+    'reqCnt' => '500',
+    'seqNo' => '0',
 );
 
 // ssl 인증여부 끄기
@@ -48,21 +52,22 @@ curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
 
 $response = curl_exec($ch);
 
-if($response === false) {
-echo 'Curl error: ' . curl_error($ch);
+if ($response === false) {
+    echo 'Curl error: ' . curl_error($ch);
 } else {
-echo $response;
+    echo $response;
 }
 
 curl_close($ch);
 
 // 아래 함수는 고객사 비노출
-function makeSecureCode() {
-global $bizId;
-global $monthDay;
-global $encipherCode;
+function makeSecureCode()
+{
+    global $bizId;
+    global $monthDay;
+    global $encipherCode;
 
-return $bizId.$monthDay.$encipherCode;
+    return $bizId . $monthDay . $encipherCode;
 }
 
 
